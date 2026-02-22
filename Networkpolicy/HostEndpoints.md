@@ -20,7 +20,7 @@ calicoctl patch kubecontrollersconfiguration default --patch='{"spec": {"control
 
 Create a global network policy:
 
-``bash
+```bash
 cat <<EOF| calicoctl apply -f -
 ---
 apiVersion: projectcalico.org/v3
