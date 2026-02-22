@@ -9,14 +9,22 @@ kind: GlobalNetworkPolicy
 metadata:
   name: default-app-policy
 spec:
-  namespaceSelector: has(projectcalico.org/name) && projectcalico.org/name not in {"kube-system", "calico-system", "calico-apiserver"}
+  namespaceSelector: has(projectcalico.org/name) && projectcalico.org/name not in {"kube-system", "calico-system"}
   types:
   - Ingress
   - Egress
+  egress:
+    - action: Allow
+      protocol: UDP
+      destination:
+        selector: k8s-app == "kube-dns"
+        ports:
+          - 53
 EOF
 ```
 
-Only workloads deployed in namespaces "kube-system", "calico-system", "calico-apiserver" are allowed to have ingress and egress traffic
+- Only workloads deployed in namespaces "kube-system", "calico-system", "calico-apiserver" are allowed to have ingress and egress traffic
+- Egress traffic from all nodes to kube-dns is also allowed 
 
 
 
