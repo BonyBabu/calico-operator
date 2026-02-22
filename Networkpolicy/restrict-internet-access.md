@@ -1,4 +1,4 @@
-```yaml
+```bash
 cat <<EOF | calicoctl apply -f -
 apiVersion: projectcalico.org/v3
 kind: GlobalNetworkPolicy
