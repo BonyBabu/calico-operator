@@ -1,3 +1,27 @@
+
+
+Block Egress and ingress by default
+
+```bash
+cat <<EOF | calicoctl apply -f -
+apiVersion: projectcalico.org/v3
+kind: GlobalNetworkPolicy
+metadata:
+  name: default-app-policy
+spec:
+  namespaceSelector: has(projectcalico.org/name) && projectcalico.org/name not in {"kube-system", "calico-system", "calico-apiserver"}
+  types:
+  - Ingress
+  - Egress
+EOF
+```
+
+Only workloads deployed in namespaces "kube-system", "calico-system", "calico-apiserver" are allowed to have ingress and egress traffic
+
+
+
+## Block Internet by default
+
 ```bash
 cat <<EOF | calicoctl apply -f -
 apiVersion: projectcalico.org/v3
