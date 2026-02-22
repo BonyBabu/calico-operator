@@ -25,4 +25,4 @@ The networks referenced in the manifest above are defined by RFC5735, which is a
 Policy order 600 gets precedence over policy order 1000 (kubernetes network policy precedence), means k8s np cannot overide this one
 
 
-The only secops team has the RBAC permissions to create namespaces, service accounts, Calico Global Network Policies. Similarly, Dev teams have the RBAC permissions to deploy pods and K8 Network policies onto the allocated namespace. By creating Global Network policies based on namespace and service-account we can automate the security changes without impacting CI/CD of indidual developers.
+Only secops team has the RBAC permissions to create namespaces, service accounts, Calico Global Network Policies. Similarly, tenants have the RBAC permissions to deploy pods and K8 Network policies in the namespace allocated to them. By creating Global Network policies based on labels assigned for namespace and service-account, secops team can automate the security changes without impacting CI/CD of indidual developers.
