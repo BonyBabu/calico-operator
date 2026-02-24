@@ -1,0 +1,10 @@
+# ip pools
+
+- They are used by calico to allocate ips to resources like pods, we can annotate a namespace with ip-pool name all the resources created in that namespace will be using the ips in that pool
+- We can configure ip-pool to be an overlay netwrok
+- NAT can be turned-on for the ip addresses (when you use the overlay network or when traffic is routed through node ip)
+
+
+# bgp peering
+bgp peering is used to share the routes between nodes and routes, in order to reduce the number of routes it uses ippool block sizes in the route table.
+
