@@ -8,4 +8,7 @@
 # bgp peering
 bgp peering is used to share the routes between nodes and routes, in order to reduce the number of routes it uses ippool block sizes in the route table.
 
+<img width="1057" height="602" alt="image" src="https://github.com/user-attachments/assets/cedb12a0-666d-41b1-9fff-8dde5509124e" />
+
+
 
