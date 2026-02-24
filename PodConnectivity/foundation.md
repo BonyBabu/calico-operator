@@ -6,7 +6,7 @@ Pod traffic is tunnelled through underlying network of host
 <img width="2011" height="1159" alt="image" src="https://github.com/user-attachments/assets/86c9efb3-8ee5-489f-9a28-a68da2c7e2bc" />
 
 
-It is possible to hide the pod ip using vxlan/ipip
+It is possible to hide the pod ip using overlay mode vxlan/ipip
 
 ## Exec into the pod
 
