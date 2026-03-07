@@ -27,7 +27,7 @@ kubectl get nodes -A
 
 ## install the operator 
 
-``bash
+```bash
 kubectl create -f https://docs.projectcalico.org/archive/v3.21/manifests/tigera-operator.yaml
 ```
 
