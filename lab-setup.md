@@ -60,3 +60,9 @@ NAME     AVAILABLE   PROGRESSING   DEGRADED   SINCE
 calico   True        False         False      10m
 ```
 
+## Installing the Sample Application
+```bash
+multipass shell host1
+kubectl apply -f https://raw.githubusercontent.com/tigera/ccol1/main/yaobank.yaml
+```
+
