@@ -1,0 +1,2 @@
+- [Pod connectivity Fundamentals](https://courses.academy.tigera.io/assets/courseware/v1/65265b9031e8b414aaac8ec6d77ff94c/asset-v1:tigera+CCO-L1+CCO-L1-2020+type@asset+block/CCO-L1_W3_01_Pod_Connectivity_Fundamentals.pdf)
+- [Encrypiton data in transit](https://courses.academy.tigera.io/assets/courseware/v1/8d0fa76c9deb4a1bdc30e012393c3eb7/asset-v1:tigera+CCO-L1+CCO-L1-2020+type@asset+block/CCO-L1_W3_02_Encrypting_Data_in_Transit.pdf)
