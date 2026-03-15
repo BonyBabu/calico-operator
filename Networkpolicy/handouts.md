@@ -1,0 +1,2 @@
+[managing trust across networks](https://courses.academy.tigera.io/assets/courseware/v1/bef54bec0afcb5a4f68639a43cbd2936/asset-v1:tigera+CCO-L1+CCO-L1-2020+type@asset+block/CCO-L1_W2_02_Managing_Trust_Across_Teams.pdf)
+[Network policy of host and nodeports](https://courses.academy.tigera.io/assets/courseware/v1/8babe469e21ca3bea67790626fc4cbcb/asset-v1:tigera+CCO-L1+CCO-L1-2020+type@asset+block/CCO-L1_W2_03_Network_Policy_for_Hosts_and_NodePorts.pdf)
