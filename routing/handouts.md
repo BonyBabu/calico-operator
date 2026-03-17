@@ -1,2 +1,2 @@
-[kube-proxy](https://courses.academy.tigera.io/assets/courseware/v1/d9abcd99980fba7a799214c36212f7a6/asset-v1:tigera+CCO-L1+CCO-L1-2020+type@asset+block/CCO-L1_W4_01_Understanding_Kube-Proxy.pdf)
-[EBPF & DSR](https://courses.academy.tigera.io/assets/courseware/v1/b7db58c48cf85f2f7f2f4ab1c85e53b8/asset-v1:tigera+CCO-L1+CCO-L1-2020+type@asset+block/CCO-L1_W4_02_Understanding_Calico_Native_Service_Handling.pdf)
+- [kube-proxy](https://courses.academy.tigera.io/assets/courseware/v1/d9abcd99980fba7a799214c36212f7a6/asset-v1:tigera+CCO-L1+CCO-L1-2020+type@asset+block/CCO-L1_W4_01_Understanding_Kube-Proxy.pdf)
+- [EBPF & DSR](https://courses.academy.tigera.io/assets/courseware/v1/b7db58c48cf85f2f7f2f4ab1c85e53b8/asset-v1:tigera+CCO-L1+CCO-L1-2020+type@asset+block/CCO-L1_W4_02_Understanding_Calico_Native_Service_Handling.pdf)
